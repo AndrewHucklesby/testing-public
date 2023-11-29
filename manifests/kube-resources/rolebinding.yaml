@@ -1,0 +1,13 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  namespace: your-namespace
+  name: example-role-binding
+subjects:
+- kind: User
+  name: "john.doe@example.com"  # Replace with the actual username or identity
+  apiGroup: rbac.authorization.k8s.io
+roleRef:
+  kind: Role
+  name: example-role  # Replace with the actual Role name
+  apiGroup: rbac.authorization.k8s.io
