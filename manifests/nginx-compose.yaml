@@ -6,4 +6,5 @@ services:
     - VARIABLE_NAME=value
     - ANOTHER_VARIABLE=another_value
     - VARIABE_3=v3
+    - VARIABLE_4=v4
 
