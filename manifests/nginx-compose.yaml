@@ -5,4 +5,5 @@ services:
   environment:
     - VARIABLE_NAME=value
     - ANOTHER_VARIABLE=another_value
+    - VARIABE_3=v3
 
