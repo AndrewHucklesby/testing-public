@@ -8,4 +8,5 @@ services:
     - VARIABLE_3=v3
     - VARIABLE_4=v4
     - VARIABLE_5=v5
+    - VARIABLE_6=v6
 
