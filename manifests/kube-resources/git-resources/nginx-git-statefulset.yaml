@@ -4,7 +4,7 @@ metadata:
   name: nginx-git-statefulset
 spec:
   serviceName: "example"
-  replicas: 2
+  replicas: 5
   selector:
     matchLabels:
       app: example
