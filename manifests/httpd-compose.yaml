@@ -3,4 +3,4 @@ services:
   httpd:
     image: httpd:latest
     environment: 
-      - FOO=BAAREE
+      - FOO=BAAR
