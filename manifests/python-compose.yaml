@@ -2,3 +2,5 @@ version: '3'
 services:
   python:
     image: python:latest
+    environment: 
+      - FOO=BAR
