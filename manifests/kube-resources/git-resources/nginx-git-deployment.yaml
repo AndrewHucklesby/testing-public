@@ -4,7 +4,7 @@ metadata:
   name: nginx-git-deployment
   labels:
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: example-app
