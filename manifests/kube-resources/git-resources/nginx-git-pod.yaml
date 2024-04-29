@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: nginx-git-pod
   labels:
-    test: edit
+    test: edited-again
 spec:
   containers:
   - name: mycontainer
