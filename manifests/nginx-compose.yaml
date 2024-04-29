@@ -3,5 +3,5 @@ services:
  nginx:
   image: nginx
   environment:
-    - VARIABLE_5=v5
+    - VARIABLE_1=v1
     
