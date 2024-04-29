@@ -3,9 +3,8 @@ kind: Deployment
 metadata:
   name: nginx-git-deployment
   labels:
-    test: edit
 spec:
-  replicas: 3
+  replicas: 2
   selector:
     matchLabels:
       app: example-app
