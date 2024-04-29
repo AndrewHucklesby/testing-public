@@ -2,3 +2,5 @@ version: '3'
 services:
   httpd:
     image: httpd:latest
+    environment: 
+      - FOO=BAR
