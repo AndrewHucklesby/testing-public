@@ -4,6 +4,7 @@ metadata:
   name: nginx-git-daemonset
   labels:
     app: example
+    test: edit
 spec:
   selector:
     matchLabels:
