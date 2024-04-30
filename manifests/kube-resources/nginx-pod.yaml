@@ -2,9 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: mypod
-  labels:
-    test: edit
 spec:
   containers:
   - name: mycontainer
-    image: nginx:latest
+    image: nginx:1.25
