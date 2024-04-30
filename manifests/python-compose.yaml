@@ -3,4 +3,4 @@ services:
   python:
     image: python:latest
     environment: 
-      FOO: BAR
+      FOO: BARR
