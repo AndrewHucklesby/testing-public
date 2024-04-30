@@ -3,4 +3,4 @@ services:
   caddy:
     image: caddy:latest
     environment: 
-      - FOOT=BAR
+      - FOO=BAR
