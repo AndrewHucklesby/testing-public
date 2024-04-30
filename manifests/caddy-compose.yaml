@@ -3,4 +3,4 @@ services:
   caddy:
     image: caddy:latest
     environment: 
-      - FOOH=BARR
+      - FOO=BAR
