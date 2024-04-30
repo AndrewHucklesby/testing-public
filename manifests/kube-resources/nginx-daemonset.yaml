@@ -4,6 +4,7 @@ metadata:
   name: example-daemonset
   labels:
     app: example
+    test: edit
 spec:
   selector:
     matchLabels:
