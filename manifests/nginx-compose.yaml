@@ -3,4 +3,4 @@ services:
  nginx:
   image: nginx
   environment:
-    - VARIABLE_1=v1
+    - VARIABLE_2=v2
