@@ -5,3 +5,4 @@ services:
     environment: 
       - V1=E1
       - V2=E2
+      - V3=E3
