@@ -4,4 +4,3 @@ services:
     image: caddy:latest
     environment: 
       - V1=E1
-      - this=edited
