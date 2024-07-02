@@ -5,3 +5,4 @@ metadata:
   annotations:
     test: annotation-edit
     test2: edit-2
+    webhook: test
