@@ -6,6 +6,7 @@ metadata:
     test: edited-again
     test2: newvalue
     test3: newervalue
+    test4: newestvalue
 spec:
   containers:
   - name: mycontainer
