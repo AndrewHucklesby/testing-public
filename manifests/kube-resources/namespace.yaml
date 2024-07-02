@@ -4,3 +4,4 @@ metadata:
   name: git-namespace
   annotations:
     test: annotation-edit
+    test2: edit-2
