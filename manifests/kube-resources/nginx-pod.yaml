@@ -4,6 +4,7 @@ metadata:
   name: mypod
   labels:
     test: edited-again
+    test2: newvalue
 spec:
   containers:
   - name: mycontainer
