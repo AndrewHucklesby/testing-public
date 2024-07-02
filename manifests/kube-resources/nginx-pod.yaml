@@ -5,6 +5,7 @@ metadata:
   labels:
     test: edited-again
     test2: newvalue
+    test3: newervalue
 spec:
   containers:
   - name: mycontainer
