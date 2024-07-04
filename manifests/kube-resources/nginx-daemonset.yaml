@@ -13,6 +13,7 @@ spec:
     metadata:
       labels:
         app: example
+        this: hasbeenedited
     spec:
       containers:
       - name: example-container
