@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: url-namespace
+  annotations:
+    test: annotation-edit
+    test2: edit-2
+    test3: edit-3
+    webhook: test
