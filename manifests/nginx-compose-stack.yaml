@@ -3,6 +3,6 @@ services:
   nginx:
     image: nginx
     environment:
-      - VARIABLE_1=v4
+      - VARIABLE_1=v1
     ports:
       - "80:80"
