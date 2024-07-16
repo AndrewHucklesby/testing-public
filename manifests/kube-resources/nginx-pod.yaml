@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: mypod
   labels:
-    test: edited-again-2
+    test: edited-again-3
 spec:
   containers:
   - name: mycontainer
