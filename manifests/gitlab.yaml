@@ -1,0 +1,2 @@
+  image: gitlab/gitlab-ee:latest
+  restart: unless-stopped
