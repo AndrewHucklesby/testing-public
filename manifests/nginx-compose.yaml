@@ -4,4 +4,4 @@ services:
   image: nginx
   restart: unless-stopped
   environment:
-    - VARIABLE_2=v2
+    - VARIABLE_2=v3
