@@ -1,0 +1,4 @@
+version: '3'
+services:
+ nginx:
+  image: registry-docker.portainercloud.io/library/nginx:latest
