@@ -6,7 +6,7 @@ services:
     ports:
       - "7888:80"
     volumes:
-      - ./html:/usr/share/nginx/html
+      - ../html:/home/html
     deploy:
       replicas: 1
       placement:
