@@ -1,4 +1,4 @@
 version: '3'
 services:
- nginx:
+ andrewnginx:
   image: andrewhucklesby/andrewnginx:latest
