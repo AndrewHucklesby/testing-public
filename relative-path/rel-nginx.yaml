@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  web:
+    image: nginx:latest
+    ports:
+      - "7888:80"
+    volumes:
+      - ./html:/usr/share/nginx/html
+    deploy:
+      replicas: 1
+      placement:
+        constraints:
+          - node.labels.role == manager
