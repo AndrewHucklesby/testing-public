@@ -6,9 +6,6 @@ services:
     ports:
       - "7888:80"
     volumes:
-      - ../html:/home/html
+      - ./html:/usr/share/nginx/html
     deploy:
-      replicas: 1
-      placement:
-        constraints:
-          - node.labels.role == manager
+      replicas: 3
