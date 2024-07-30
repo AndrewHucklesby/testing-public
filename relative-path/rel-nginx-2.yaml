@@ -7,4 +7,4 @@ services:
     volumes:
       - ./html:/usr/share/nginx/html
     deploy:
-      replicas: 3
+      replicas: 1
