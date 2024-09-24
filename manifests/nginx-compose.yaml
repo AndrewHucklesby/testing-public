@@ -3,5 +3,5 @@ services:
  nginx:
   image: nginx
   environment: 
-    - V1=E1
+    - V1=E2
     - THIS=EDITED
