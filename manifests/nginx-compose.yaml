@@ -4,4 +4,4 @@ services:
   image: nginx
   environment: 
     - V1=E2
-    - THIS=EDITEDAGAINS
+    - THIS=EDITEDAGAIN2
